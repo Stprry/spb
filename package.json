@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"serve": "./pocketbase serve"
+	},
+	"dependencies": {
+		"pocketbase": "^0.10.1"
+	}
+}
