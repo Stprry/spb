@@ -1,5 +1,7 @@
 <script>
+  import { applyAction, enhance } from '$app/forms';
 	import '../app.postcss';
+  import { currentUser, pb } from '$lib/pocketbase';
 </script>
 
 <nav class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-50 text-gray-500 hover:text-gray-700 focus:text-gray-700">
@@ -12,8 +14,22 @@
     </div>
   </div>
    <ul class="container-fluid w-3/6 flex flex-wrap items-center justify-end space-x-4  px-6  text-gray-90 mt-2 lg:mt-0 mr-1">
+    {#if $currentUser}
+    <li>Welcome Back, {$currentUser.firstName} {$currentUser.lastName}</li>
+      <li>
+        <form method="POST" action="/Logout" use:enhance={() => {
+          return async ({ result }) => {
+            pb.authStore.clear();
+            await applyAction(result)
+          }
+        }}>
+          <button>Log out</button>
+        </form>
+      </li>
+    {:else}
       <li class="hover:text-black "><a href="/Login">Login</a></li>
-	  <li class="hover:text-black"><a href="/Register">Register</a></li>
+      <li class="hover:text-black"><a href="/Register">Register</a></li>
+    {/if}
 	</ul>
 </nav>
 

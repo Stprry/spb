@@ -1,12 +1,18 @@
-<script>
-	import { formMethodOptions } from "../../constants/formMethodOptions";
+<script lang="ts">
+	import { applyAction, enhance } from "$app/forms";
+  import { pb } from "$lib/pocketbase";
+
 
 </script>
 <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8  rounded-lg min-h-full">
-
   <h1 class="font-bold font-mono mt-2">Register</h1>
   <small>Sign Up to access the free workout planning app.</small>
-    <form class="mb-8 space-y-6 w-full lg:w-6/12" action="#" method="POST">
+    <form class="mb-8 space-y-6 w-full lg:w-6/12" action="#" method="POST" use:enhance={() => {
+      return async ({ result }) => {
+        pb.authStore.loadFromCookie(document.cookie);
+        await applyAction(result);
+      }
+    }}>
       <input type="hidden" name="remember" value="true">
       <div class="space-y-2 rounded-md shadow-sm">
         
