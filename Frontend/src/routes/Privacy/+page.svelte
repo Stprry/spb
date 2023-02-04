@@ -1,0 +1,13 @@
+<div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8  rounded-lg min-h-full">
+    <h1 class="text-2xl font-bold">Our Privacy Terms and Conditions.</h1>
+    <div>
+        <span>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec lorem massa. Donec tincidunt vel lectus vel ornare. Donec faucibus urna quis libero tempor, quis scelerisque massa rhoncus. Donec non odio sagittis, posuere nibh in, pulvinar lorem. Quisque volutpat imperdiet diam quis ullamcorper. Nulla accumsan congue augue ut auctor. Integer arcu ipsum, malesuada eget elit ac, euismod gravida erat. Quisque pulvinar posuere nunc, in molestie metus sollicitudin vel. Aenean viverra dolor vitae vestibulum sollicitudin. Nulla vitae urna in ligula dignissim mollis. Sed nec lorem a risus dapibus interdum. Pellentesque pulvinar vel nunc ac fringilla.
+
+Cras eget velit scelerisque, bibendum lectus vel, sodales neque. Proin ut ligula at massa pharetra dictum sit amet in libero. Nulla scelerisque, dui ac ultrices ultrices, erat dui dignissim metus, sed tristique risus nulla vitae tortor. Quisque suscipit pharetra mauris eget faucibus. Nam ullamcorper, orci id pharetra volutpat, quam nunc bibendum quam, in sagittis odio nisl vitae libero. Nulla in justo id nisi dictum lobortis pretium nec ipsum. Pellentesque semper arcu lobortis ligula rutrum, ac hendrerit libero laoreet. Integer aliquet risus eu nisl semper, sit amet pretium nisl interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis enim nec dolor volutpat suscipit. Quisque bibendum augue nisi, at commodo mauris aliquet non. Sed semper dui eu consectetur suscipit.
+
+In hac habitasse platea dictumst. Integer a mi quis risus vestibulum maximus vel malesuada mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam pharetra posuere magna, ac consectetur enim scelerisque in. Ut vel tellus et velit varius dictum non id eros. Morbi arcu dolor, aliquet sed metus a, auctor commodo risus. Duis in arcu neque. Fusce et tincidunt neque. Sed interdum ultrices quam. Nulla facilisi. Phasellus neque lorem, convallis sed magna a, rhoncus volutpat ante. Sed et urna et lorem commodo tristique. Suspendisse potenti. Vestibulum faucibus, erat vel tempor sodales, elit lorem fermentum nunc, ac viverra ante velit et felis. In pulvinar ex id erat gravida, sit amet varius odio pretium. 
+        </span>
+
+    </div>
+</div>
