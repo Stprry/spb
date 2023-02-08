@@ -1,23 +1,22 @@
 <div class="flex flex-col h-screen ">
     <section class="justify-center mx-auto">
         <div class="text-4xl font-extrabold ...">
-            <span class="bg-clip-text text-transparent  underline decoration-sky-500" style="text-shadow:-1px -1px 0 #faa,  
-                1px -1px 0 #fff,
-                -1px 1px 0 #000,
-                1px 1px 0 #000;">
+            <span class="bg-clip-text text-transparent pageHeadingPrimary  underline decoration-sky-500">
             Hi I'm Sam the SoftwareStrongman.
             </span>
-            <div class="text-2xl text-transparent"  style="text-shadow:-1px -1px 0 #fff,  
-                1px -1px 0 #b0978b,
-                -1px 1px 0 #b0978b,
-                1px 1px 0 #b0978b;">
+            <div class="text-2xl text-transparent pageHeadingOutline">
                 This site is my personal tech blog and workout planner free for public use.
             </div>
         </div>
-        <small class="text-gray-400  text-xs">Hopefully there isn't but there may be a few bugs, if you stumble upon one please report them using the <a href="/contactMe" class="text-blue-600 hover:text-blue-300 transition">contact me</a> page and submitting a bug report.</small>
+        <small class="text-gray-400  text-xs">
+          Hopefully there isn't but there may be a few bugs, if you stumble upon one please report them using the 
+          <a href="/contactMe" class="text-blue-300 hover:text-blue-600 transition">contact me</a> page and submitting a bug report.
+        </small>
     </section>
-    <section class="my-12 flex flex-col rounded-lg bg-gray-500/20  px-3 py-2 sm:px-6 lg:px-8">
-        <h1 class="text-2xl flex-row self-center pt-2">About myself</h1>
+
+    <!--Grid -->
+    <section class="my-12 flex flex-col rounded-xl border-gray-500/30 border  px-3 py-2 sm:px-6 lg:px-8">
+        <h1 class="text-3xl flex-row self-center pt-2 text-transparent font-extrabold pageHeadingPrimary">About me</h1>
     <div class="mx-auto mt-12 max-w-2xl sm:mt-12  lg:max-w-4xl">
       <dl class="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
         <div class="relative pl-16">
@@ -77,5 +76,66 @@
 
     <section class="my-12 flex flex-row-reverse rounded-lg bg-indigo-400 text-gray-100 px-3 py-2 sm:px-6 lg:px-8">
         <h1 class="text-2xl">My Projects</h1>
+        
+        <div>
+          <div class="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
+              <div class="js-flickity" data-flickity-options="{ 'wrapAround: true'}">
+                  <div class="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                      <div class="relative w-full h-full lg:block hidden">
+                          <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area"
+                              class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                      <div class="relative w-full h-full lg:hidden">
+                          <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png"
+                              alt="sitting area" class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                      <div class="relative w-full h-full lg:block hidden">
+                          <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs"
+                              class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                      <div class="relative w-full h-full lg:hidden">
+                          <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs"
+                              class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                      <div class="relative w-full h-full lg:block hidden">
+                          <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair"
+                              class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                      <div class="relative w-full h-full lg:hidden">
+                          <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair"
+                              class="object-center object-cover w-full h-full" />
+                          <div class="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                              <h1 class="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge
+                                  Interior</h1>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
     </section>
 </div>

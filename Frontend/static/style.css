@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pageHeadingPrimary {
+	text-shadow: -1px -1px 0 #faa, 1px -1px 0 #fff, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.pageHeadingOutline {
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #b0978b, -1px 1px 0 #b0978b, 1px 1px 0 #b0978b;
+}
+
+@layer base {
+}
+
+@layer components {
+	.lightLink {
+		@apply text-blue-300 hover:text-blue-600 transition;
+	}
+}
+
+@layer utilities {
+}
